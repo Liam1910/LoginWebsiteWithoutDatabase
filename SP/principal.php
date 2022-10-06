@@ -49,7 +49,7 @@ if(!isset($_SESSION['UserData']['Username'])){
  <br>
  <br>
  <br>
- <a href="/cerrar-sesión.php" class="Link">Cerrar sesión</a>
+ <a href="/login.php" class="Link">Cerrar sesión</a>
 </body>
     
 </html>
