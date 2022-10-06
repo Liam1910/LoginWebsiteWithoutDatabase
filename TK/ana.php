@@ -49,7 +49,7 @@ if(!isset($_SESSION['UserData']['Username'])){
  <br>
  <br>
  <br>
- <a href="/çıkış.php" class="Link">çıkış</a>
+ <a href="/logout.php" class="Link">çıkış</a>
 </body>
     
 </html>
