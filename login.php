@@ -13,7 +13,7 @@
 		if (isset($logins[$Username]) && $logins[$Username] == $Password){
 			/* Success: Set session variables and redirect to Protected page  */
 			$_SESSION['UserData']['Username']=$logins[$Username];
-			header("location:main.php");
+			header("location:index.php");
 			exit;
 		} else {
 			/*Unsuccessful attempt: Set error message */
@@ -28,7 +28,7 @@
 <head>
 <meta charset="utf-8">
 <title>Login</title>
-<link href="/css/style.css" rel="stylesheet">
+<link href="/style.css" rel="stylesheet">
 </head>
 <body>
 <form action="" method="post" name="Login_Form">
