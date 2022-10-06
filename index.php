@@ -31,6 +31,10 @@
   <br>
   <br>
   <br>
+  <a href="/IT/principale.php" class="Link">Italiano</a>
+  <br>
+  <br>
+  <br>
   <a href="/RU/авторизоваться.php" class="Link">Русский</a>
 </details>
 <br>
